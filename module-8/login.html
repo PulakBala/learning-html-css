@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .login-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            border: 2px solid red;
+            padding: 5px;
+        }
+        .login input{
+            margin-top: 10px;
+            font-size: 1rem;
+            padding: 10px;
+        }
+        .login input[type="submit"]{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <span>
+                <a href="">Home</a>
+                <a href="">Dashbord</a>
+                <a href="">Inventer</a>
+           </span>
+            <span>
+                <a href=""><i class="fa-solid fa-person-dress"></i></a>
+                <a href=""><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login">
+            <h3>Login Form</h3>
+            <input type="email" name="" id="" placeholder="write email">
+            <input type="password" name="" id="" placeholder="password">
+            <input type="submit" value="login">
+        </form>
+    </section>
+</body>
+</html>
